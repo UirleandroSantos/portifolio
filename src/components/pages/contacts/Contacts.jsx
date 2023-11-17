@@ -29,7 +29,6 @@ export function Contacts(){
                     </a>
                 </div>
             </section>
-            <Footer />
         </section>
 )
 }
