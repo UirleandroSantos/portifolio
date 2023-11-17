@@ -1,0 +1,10 @@
+Footer{
+    position: absolute;
+    /* top: 0; */
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}

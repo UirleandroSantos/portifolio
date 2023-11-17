@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color-text: #1F2626;
+    --color-button-start: #5222D0;
+    --color-button-end: #FF6196;
+    --color-text-button: #DBFFFF;
+    --color-title: #151717;
+    --color-background-project: #F0F0F0;
+}
+

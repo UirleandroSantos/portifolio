@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonHome{
+    color: var(--color-text);
+    text-decoration: none;
+    border-color: red;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.linkProjects{
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+@media (min-width: 350px){
+    .linkProjects{
+        visibility: visible;
+        height: auto;
+        width: auto;
+    }
+}

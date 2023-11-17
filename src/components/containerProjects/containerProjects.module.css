@@ -1,0 +1,24 @@
+.container{
+    margin-top: 4.5rem;
+}
+
+.titleProjects{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-title);
+}
+
+.containerButton{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+@media (min-width: 969px){
+    .projects{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 40% 40%;
+        grid-template-areas: 'primary' 'second';
+        gap: 2.25rem;
+    }
+}
