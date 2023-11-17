@@ -26,8 +26,8 @@ export function Contacts(){
                         <p>Instagram</p>
                     </a>
                 </div>
-                <Footer />
             </section>
+                <Footer />
         </section>
 )
 }
