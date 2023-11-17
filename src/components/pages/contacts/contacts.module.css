@@ -40,6 +40,17 @@
 .iconContacts{
     width: 5rem;
 }
+
+Footer{
+    position: absolute;
+    /* top: 0; */
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
 @media (min-width: 969px){
     .wrapperContacts{
         padding: 1.5rem 4rem;
