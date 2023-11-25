@@ -8,11 +8,11 @@ import { Contacts } from './components/pages/contacts/Contacts'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/portifolio'>
     <Routes>
-      <Route path='' element={<App />}/>
+      <Route path='/' element={<App />}/>
       <Route path="/portifolio" element={<App />} />
-      <Route path="/contacts" element={<Contacts />} />
+      <Route path="/contacts/" element={<Contacts />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
