@@ -11,9 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename='/portifolio'>
     <Routes>
-      <Route path='*' element={<Error />} />
+      <Route path='/*' element={<Error />} />
       <Route path='/' element={<App />}/>
-      <Route path="/portifolio" element={<App />} />
       <Route path="/contacts/" element={<Contacts />} />
     </Routes>
     </BrowserRouter>

@@ -7,7 +7,7 @@ import iconIntagram from '../../../assets/instagram.svg';
 
 export function Contacts(){
     return (
-        <section className={styles.wrapperContacts}>
+        <section className={styles.wrapper}>
             <Header />
             <section className={styles.containerContacts}>
                 <h1 className={styles.titleContacts}>Contacts</h1>
