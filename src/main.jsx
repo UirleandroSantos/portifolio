@@ -9,7 +9,7 @@ import { Error } from './components/pages/error/Error';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/portifolio'>
+    <BrowserRouter basename='/home'>
     <Routes>
       <Route path='*' element={<Error />} />
       <Route path='/' element={<App />}/>
